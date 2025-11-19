@@ -1,0 +1,40 @@
+firearm-detector/
+│
+├── src/                               # All code files
+│   ├── detection.py                   # Main firearm detection script
+│   ├── train.py                       # Training script (if applicable)
+│   ├── preprocessing.py               # Data preprocessing functions
+│   ├── utils.py                       # Helper functions
+│   └── camera_test.py                 # Optional webcam/live test
+│
+├── models/
+│   ├── model_config.yaml              # Model configuration file
+│   ├── labels.txt                     # Class labels (Gun, No-Gun)
+│   └── README.md                      # Put link if model weights are too large
+│
+├── data/
+│   ├── sample_images/                 # Small sample of dataset images
+│   └── annotations/                   # Annotation samples (YOLO format)
+│
+├── notebooks/
+│   ├── EDA.ipynb                      # Exploratory data analysis
+│   ├── training_experiments.ipynb     # Training experiments
+│   └── evaluation.ipynb               # Accuracy calculation, confusion matrix
+│
+├── docs/
+│   ├── Final_Report.pdf               # Your final semester project report
+│   ├── System_Architecture.png
+│   ├── Model_Architecture.png
+│   ├── Sample_Output1.jpg
+│   ├── Sample_Output2.jpg
+│   └── Flowchart.png
+│
+├── demo/
+│   ├── demo_video.mp4                 # Short video showing firearm detection
+│   └── screenshots/                   # Output images
+│
+├── README.md                          # Main documentation
+├── requirements.txt                   # All Python dependencies
+├── LICENSE                            # MIT license (recommended)
+├── .gitignore                         # Prevent uploading junk files
+└── setup.sh                           # Optional setup script
